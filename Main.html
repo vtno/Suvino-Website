@@ -1,20 +1,54 @@
 <!DOCTYPE html>
 <link rel="stylesheet" type="text/css" href="css/Main.css">
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<head>
-	<title>S u v i n o C o r p</title>
-</head>
-<body>
-	<h1>hello world</h1>
-	<div class = "container">
-		<div class = "row">
-			<div class = "col-lg-6">Tesasdasdasdasdt</div>
-			<div class = "col-lg-2">Test2</div>
+<link href="bootstrap/css/Main.css" rel="stylesheet">
+<link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'>
+	<head>
+		<title>S u v i n o C o r p</title>
+	</head>
+	<body>
+		<div  class="header">
+			asdasdasdasd
 		</div>
-	</div>
-
-<script src="bootstrap/js/bootstrap.min.js"></script>
-<script src="js/jquery-1.11.1.min.js"></script>
-<script type="text/javascript" src = "js/Main.js"></script>
-
-</body>
+		<div class="container_fluid">
+			<!-- #camera_wrap_1 -->
+			<div class="camera_wrap camera_bar" id="camera_wrap_1">
+				<div data-thumb="img/news1.png" data-src="img/slide3.jpg" data-fx="simpleFade"  data-transPeriod="3000">
+					<div class="camera_caption fadeFromLeft">
+						<h id="hnews">Graduate day! 12.4.13</h><br> <em>The event will  take place in the university. don't forget!</em>
+					</div>
+				</div>
+				<div data-thumb="img/news1.png" data-src="img/slide1.jpg"  data-fx="simpleFade"  data-transPeriod="3000">
+					<div class="camera_caption fadeFromBottom">
+						<h id="hnews">Recuiting new professor</h><br> <em>Join us immediately before it's too late.</em>
+					</div>
+				</div>
+				<div data-thumb="img/news1.png" data-src="img/slide2.jpg"  data-fx="simpleFade" data-transPeriod="3000">
+					<div class="camera_caption fadeFromRight stopRight">
+						<h id="hnews">freshmen Campus</h> <br>Work hard play hard.
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- #camera_wrap_1 -->
+		<div class = "container">
+			<div class = "row">
+				<div class = "col-lg-6">Tesasdasdasdasdt</div>
+				<div class = "col-lg-2">Test2</div>
+			</div>
+		</div>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		//<script src="js/jquery-1.11.1.min.js"></script>
+		<script type='text/javascript' src='js/jquery.min.js'></script>
+		<script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
+		<script type='text/javascript' src='js/camera.js'></script>
+		<script type="text/javascript" src = "js/Main.js"></script>
+		<script type='text/javascript' src='js/camera.js'></script>
+		<script>
+		jQuery(function(){
+		jQuery('#camera_wrap_1').camera({
+		height:'650px'
+		});
+		});
+		</script>
+	</body>
