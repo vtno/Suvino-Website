@@ -148,10 +148,11 @@
 	z-index: 4;
 }
 .camera_caption {
-	bottom: 50%;
+	bottom: 30%;
+	left:5%;
 	display: block;
 	position: absolute;
-	width: 420px;
+	width: auto;
 }
 .camera_caption > div {
 	padding: 10px 20px;
@@ -428,7 +429,7 @@
 	color:white;
 }
 .camera_caption > div {
-	background: green;
+
 }
 .camera_wrap .camera_pag .camera_pag_ul li {
 	background: #b7b7b7;
