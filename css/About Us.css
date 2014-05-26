@@ -12,17 +12,22 @@
 }
 
 #topic {
-	font-size: 72px;
+	font-size: 40px;
 	font-family: z;
 	width: auto;
+	
+}
+.fullWidth{
+	background-color: #1f1f1f;
+	color:white;
+}
+.margin {
+ margin-bottom: 3%;
 }
 
-.container {
-	padding-top: 20px;
-}
 #factory {
-	margin-top: 10px;
-	height:auto;
+	
+	height:100%;
 	width:100%;
 }
 figure {
