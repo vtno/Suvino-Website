@@ -4,6 +4,9 @@
 	margin-right: auto;
 	margin-left: auto;
 }
+body{
+	overflow-x: hidden;
+}
 .header{
 	position: absolute;
 	z-index: 100;
@@ -39,10 +42,19 @@
 .middleBar{
 	padding-top:3%;
 	padding-bottom: 3%;
+	border-top: 1px solid;
 }
 .clear {
 	padding: 0 !important;
 	margin: 0 !important;
-
-
+}
+.parent{
+	position: relative;
+}
+.img-caption{
+	position: absolute;
+	top: 15%;
+	right: 5%;
+	font-size: 55px;
+font-family: 'Open Sans', sans-serif;
 }
