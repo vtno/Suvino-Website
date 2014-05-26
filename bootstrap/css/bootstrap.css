@@ -3936,10 +3936,20 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-text.navbar-right:last-child {
     margin-right: 0;
   }
-}
-.navbar-default {
+  .navbar-default {
   background-color: #f8f8f8;
   border-color: #e7e7e7;
+}
+}
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+@media(max-width:760px){
+  .navbar-default{
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+  }
 }
 .navbar-default .navbar-brand {
   color: #777;
