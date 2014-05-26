@@ -22,16 +22,33 @@
 	color:white;
 }
 .margin {
- margin-bottom: 3%;
+ 	margin-bottom: 3%;
+}
+ol li {
+	display: inline;
+
 }
 
+.commitment {
+	color: #fff;
+
+}
 #factory {
-	
 	height:100%;
 	width:100%;
 }
+
+.big{
+	font-size: 24px;
+	font-family: z ;
+}
+.small{
+	font-style: italic;
+	line-height: 20px;
+	
+}
 figure {
-	display: block;
+	display: inline-block;
 	position: relative;
 }
 figcaption {
