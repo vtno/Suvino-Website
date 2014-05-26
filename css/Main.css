@@ -35,10 +35,10 @@
 }
 .upperBar{
 	padding-bottom: 6%;
-	border-bottom: 1px solid;
 }
 .middleBar{
 	padding-top:3%;
+	padding-bottom: 3%;
 }
 .clear {
 	padding: 0 !important;
