@@ -3821,7 +3821,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 15px;
+    margin-top: -6px;
     padding-bottom: 15px;
   }
   .navbar-nav.navbar-right:last-child {
@@ -3947,8 +3947,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media(max-width:760px){
   .navbar-default{
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color: #1F1F1F;
+  margin-top: -7px;
+  }
+  .header{
+    text-align: center;
   }
 }
 .navbar-default .navbar-brand {
