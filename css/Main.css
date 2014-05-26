@@ -9,7 +9,7 @@
 	z-index: 100;
 	height: 120px;
 	width: 100%;
-	opacity: 0.95;
+	opacity: 0.92;
 	background-color: #1F1F1F;
 	padding-top:0.5%;
 }
@@ -20,4 +20,29 @@
 .z{
 	font-family:z;
 	font-size:15px;
+	color: white;
+}
+.lg{
+	font-family: z;
+	color: white;
+	font-size: 1em;
+}
+.CollectionTab{
+	font-family: z;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 3%;
+}
+.upperBar{
+	padding-bottom: 6%;
+	border-bottom: 1px solid;
+}
+.middleBar{
+	padding-top:3%;
+}
+.clear {
+	padding: 0 !important;
+	margin: 0 !important;
+
+
 }
