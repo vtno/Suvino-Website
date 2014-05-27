@@ -67,7 +67,6 @@ transition-timing-function: linear;
 .middleBar{
 	padding-top:3%;
 	padding-bottom: 3%;
-	border-top: 1px solid;
 }
 .clear {
 	padding: 0 !important;
