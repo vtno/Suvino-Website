@@ -6,6 +6,12 @@
 a {
 	color:inherit;
 }
+
+@media(max-width: 760px){
+	figcaption{
+		bottom: 0;
+	}
+}
 .header {
 	height: 120px;
 	width: 100%;
@@ -39,7 +45,13 @@ a {
 ol li {
 	display: inline;
 }
-
+.box {
+	transition:0.5s;
+}
+.box:hover{
+	box-shadow: 0 0 10px black;
+	transition:0.5s;
+}
 .relative {
 	position: relative;
 }
