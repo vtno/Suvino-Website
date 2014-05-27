@@ -7,11 +7,7 @@ a {
 	color:inherit;
 }
 
-@media(max-width: 760px){
-	figcaption{
-		bottom: 0;
-	}
-}
+
 .header {
 	height: 120px;
 	width: 100%;
@@ -91,7 +87,7 @@ figure {
 	display: inline-block;
 	position: relative;
 }
-figcaption {
+.img-cap{
 	position: absolute;
 	width: 100%;
 	text-align: center;
@@ -102,4 +98,11 @@ figcaption {
 	font-family: z;
 	border-top: 2px solid white;
 	border-bottom: 2px solid white;
+}
+@media(max-width:760px){
+.img-cap{
+bottom: 20%;
+font-size: 30px;
+
+ }
 }
