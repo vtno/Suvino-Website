@@ -44,10 +44,13 @@ ol li {
 	position: relative;
 }
 .button-fac{
+	text-decoration: none;
+	color: inherit;
 	transition:0.5s;
 }
 .button-fac:hover{
 	color:black;
+	text-decoration: none;
 	background-color: white;
 	transition:0.5s;
 }
