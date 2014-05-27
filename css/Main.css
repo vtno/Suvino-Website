@@ -52,11 +52,18 @@ ul{
 	font-size: 40px;
 	text-align: center;
 	margin-bottom: 3%;
+	border: 1px solid;
+}
+.LookingTab{
+	font-family: z;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 3%;	
 }
 .hover:hover{
-transition-timing-function: linear;
--webkit-transition-timing-function: linear; /* Safari and Chrome */
-		box-shadow: 0px 0px 5px black;
+	transition-timing-function: linear;
+	-webkit-transition-timing-function: linear; /* Safari and Chrome */
+	box-shadow: 0px 0px 5px black;
 }
 .hover{
 	  transition: all 0.3s ease;
@@ -75,13 +82,18 @@ transition-timing-function: linear;
 .parent{
 	position: relative;
 }
+
 .img-caption{
 	position: absolute;
 	top: 30%;
 	right: 7%;
 	font-size: 30px;
 	color: black;
-
+	}
+@media(max-width:760px){
+.img-caption{
+display:none;
+ }
 }
 .button-fac{
 	position: absolute;
