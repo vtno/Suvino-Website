@@ -15,6 +15,7 @@ a {
 	z-index: 20;
 }
 .foot{
+	color:white;
 	transition:0.5s;
 }
 .foot:hover{
