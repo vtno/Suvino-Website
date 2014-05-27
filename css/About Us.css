@@ -3,7 +3,9 @@
 	height: auto;
 	-webkit-filter:blur(2px);
 }
-
+a {
+	color:inherit;
+}
 .header {
 	height: 120px;
 	width: 100%;
@@ -12,7 +14,15 @@
 	position: absolute;
 	z-index: 20;
 }
-
+.foot{
+	transition:0.5s;
+}
+.foot:hover{
+	color: black;
+	background-color: white;
+	text-decoration: none;
+	transition:0.5s;
+}
 .topic {
 	font-size: 40px;
 	font-family: z;
@@ -32,6 +42,14 @@ ol li {
 
 .relative {
 	position: relative;
+}
+.button-fac{
+	transition:0.5s;
+}
+.button-fac:hover{
+	color:black;
+	background-color: white;
+	transition:0.5s;
 }
 .commitment {
 	color: #fff;
