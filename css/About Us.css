@@ -1,7 +1,9 @@
 #hero {
 	width:100%;
 	height: auto;
+	-webkit-filter:blur(2px);
 }
+
 .header {
 	height: 120px;
 	width: 100%;
