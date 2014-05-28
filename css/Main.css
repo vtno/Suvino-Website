@@ -8,15 +8,17 @@ body{
 
 }
 .header{
-	position: absolute;
+	top:0;
 	z-index: 100;
-	font-family: z;
+	font-family: a;
 	color: white;
 	height: 120px;
 	width: 100%;
-	opacity: 0.92;
+	opacity: 0.97;
 	background-color: #1F1F1F;
 	padding-top:0.5%;
+	font-size: 13px;
+	box-shadow: 0 0 30px black;
 }
 #bc{
   font-size: 70px;
@@ -92,6 +94,9 @@ ul{
 @media(max-width:760px){
 .img-caption{
 display:none;
+ }
+ .lg{
+ 	display: none;
  }
 }
 .button-fac{

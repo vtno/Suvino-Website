@@ -12,7 +12,7 @@
 		<body>
 			<div  class="header">
 				<div class="container-fluid" >
-					<img src="img/logo.png" width=180px height=70px>
+					<img id="logo" src="img/logo.png" width="180px" height="70px">
 					<div class="pull-right lg"> <img src="img/th.png"> TH | EN</div>
 				</div>
 				<nav class="navbar navbar-default" role="navigation">
@@ -130,6 +130,7 @@
 				<script type='text/javascript' src='js/camera.js'></script>
 				<script type="text/javascript" src = "js/Main.js"></script>
 				<script>
+				   			var check=true;
 				jQuery(function(){
 					jQuery('#camera_wrap_1').camera({
 						pagination: true,
@@ -139,5 +140,25 @@
 						time: 5000,
 					});
 				});
+			
+				$(document).ready(function(){
+    		$(window).scroll(function(){
+        if ($(window).scrollTop()>160&&check){
+           $(".header").css("position","fixed");
+           $(".header").css("top","-80px");
+           $(".header").animate({"top":"0"}, 1000);
+           $("#logo").css("display","none");
+           $(".header").css("height","60");
+			check=false;
+		}
+        if ($(window).scrollTop()<160){
+        $(".header").css("position","absolute");
+        $("#logo").css("display","inline");
+        $(".header").css("height","120");
+        $(".header").css("top","0");
+        check=true;
+        }
+    });
+});
 				</script>
 			</body>
