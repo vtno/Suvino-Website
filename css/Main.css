@@ -5,19 +5,17 @@
 	margin-left: auto;
 }
 body{
-
 }
 .header{
 	top:0;
 	z-index: 100;
 	font-family: a;
-	color: white;
 	height: 120px;
 	width: 100%;
 	opacity: 0.97;
 	background-color: #1F1F1F;
 	padding-top:0.5%;
-	font-size: 13px;
+	font-size: 11px;
 	box-shadow: 0 0 30px black;
 }
 #bc{
@@ -36,7 +34,7 @@ body{
 }
 .footer{
 	background-color: #1F1F1F;
-	color: white;
+	color: gray;
 	padding:1%;
 	text-align: center;
 	font-family: z;
@@ -54,12 +52,14 @@ ul{
 	font-size: 30px;
 	text-align: center;
 	margin-bottom: 3%;
+
 }
 .LookingTab{
 	font-family: z;
-	font-size: 40px;
 	text-align: center;
 	margin-bottom: 3%;	
+	color: gray	;
+	font-size: 40px;
 }
 .hover:hover{
 	transition-timing-function: linear;
@@ -69,8 +69,13 @@ ul{
 .hover{
 	  transition: all 0.3s ease;
 }
+.potato{
+	background-image:url(../img/bg1.jpg);
+	background-size: cover;
+}
 .upperBar{
-	padding-bottom: 6%;
+	padding-bottom: 25%;
+	padding-top: 25%;
 }
 .middleBar{
 	padding-top:3%;
