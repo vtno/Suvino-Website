@@ -40,6 +40,9 @@ body{
 	font-family: z;
 	width: 100%;
 }
+.cus{
+	border: 1px #F0F0F0 solid;
+}
 ul li{
 	text-decoration: none;
 	display: inline;
@@ -49,10 +52,15 @@ ul{
 }
 .CollectionTab{
 	font-family: z;
-	font-size: 30px;
+	font-size: 40px;
 	text-align: center;
 	margin-bottom: 3%;
+	color: gray;
 
+}
+.customerTab{
+	padding-top: 6%;
+	padding-bottom: 6%;
 }
 .LookingTab{
 	font-family: z;
