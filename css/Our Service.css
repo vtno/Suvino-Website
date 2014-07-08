@@ -1,0 +1,33 @@
+.prep-caption{
+	position: absolute;
+	z-index: 10;
+	bottom: 20%;
+	font-family: z;
+	background-color: black;
+	color: white;
+	width: 80%;
+	left:3%;
+	padding: 2px 2px 2px 10px;
+}
+
+.fade {
+	opacity: 0.8;
+	transition:0.5s;
+}
+
+.fade:hover {
+	opacity: 1;
+	transition:0.5s;
+}
+
+.img-caption {
+	position: absolute;
+	bottom: 40%;
+	opacity: 1;
+	font-size: 72px;
+	color: white;
+	font-family: z;
+}
+.img-info {
+
+}
