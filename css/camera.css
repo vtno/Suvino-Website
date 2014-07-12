@@ -148,11 +148,11 @@
 	z-index: 4;
 }
 .camera_caption {
-	bottom: 30%;
-	left:5%;
 	display: block;
 	position: absolute;
-	width: auto;
+	width: 100%;
+	text-align: center;
+	top:50%;
 }
 .camera_caption > div {
 	padding: 10px 20px;

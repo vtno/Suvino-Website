@@ -10,10 +10,10 @@
 </head>
 <body>
 	<!--NAV-->
-	<div  class="header contactNav">
+				<div  class="header">
 			<div class="container-fluid" >
-				<img src="img/logo.png" width=180px height=70px>
-				<div class="pull-right lg"> <img src="img/th.png"> TH | EN</div>
+				<img id="logo" src="img/logo.png"  width="120px" height="50px">
+				<div class="pull-right lg" style="color:black;">  JP | EN</div>
 			</div>
 			<nav class="navbar navbar-default" role="navigation">
 				<div class="container-fluid">
@@ -29,7 +29,7 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav ">
-							<li><a href="Main.html">HOME</a></li>
+							<li class="activated"><a href="Main.html">HOME</a></li>
 							<li><a href="News.html">NEWS</a></li>
 							<li><a href="About Us.html">ABOUT US</a></li>
 							<li><a href="#">OUR SERVICE</a></li>
@@ -39,8 +39,7 @@
 						</div><!-- /.navbar-collapse -->
 						</div><!-- /.container-fluid -->
 					</nav>
-				</nav>
-			</div>
+				</div>
 	<!--Main-->
 	<!-- #camera_wrap_1 -->
 				<div class="container-fluid clear">
@@ -144,7 +143,7 @@
 			jQuery(function(){
 				jQuery('#camera_wrap_1').camera({
 					pagination: false,
-					height:'650px',
+					height:'760px',
 					navigation:false,
 					hover:false,
 					time: 5000,

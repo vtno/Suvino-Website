@@ -9,18 +9,47 @@ body{
 .header{
 	top:0;
 	z-index: 100;
-	font-family: a;
-	height: 120px;
+font-family: 'Abel', sans-serif;
 	width: 100%;
-	opacity: 0.97;
-	background-color: #1F1F1F;
+	height: 155px;
+	position: fixed;
+	opacity: 0.95;
+	background-color: white;
 	padding-top:0.5%;
-	font-size: 11px;
-	box-shadow: 0 0 30px black;
+	font-size: 13px;
+	box-shadow: 0 0 10px gray;
+			letter-spacing:3px;
+}
+.center{
+	width: 100%;
+	text-align: center;
+}
+.activated{
+	text-shadow: 1px black;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+#logo{
+	margin: 10px;
+	margin-bottom:20px;
+	text-align: center;
+}
+.logo{
+	z-index: 1000;
+	position: absolute;
+ left:2%;
+ top:2%;
 }
 #bc{
-  font-size: 70px;
-  font-family: z;
+  font-size: 120px;
+	font-family: 'Abel', sans-serif;
+  color: white;
 }
 .z{
 	font-family:z;
@@ -62,12 +91,34 @@ ul{
 	padding-top: 6%;
 	padding-bottom: 6%;
 }
+.fac{
+	background-image:url(../img/fac.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+    background-attachment:fixed;
+    opacity: 0.95;
+height: 500px;
+    max-width: 100%;
+
+}
 .LookingTab{
-	font-family: z;
+font-family: 'Abel', sans-serif;
+		letter-spacing:2px;
 	text-align: center;
 	margin-bottom: 3%;	
-	color: gray	;
-	font-size: 40px;
+	color:white;
+	font-size: 70px;
+}
+.topic{
+	font-family: 'Abel', sans-serif;
+		letter-spacing:2px;
+	text-align: center;
+	margin-bottom: 3%;	
+	color:black;
+
+	font-size: 25px;
 }
 .hover:hover{
 	transition-timing-function: linear;
@@ -78,12 +129,17 @@ ul{
 	  transition: all 0.3s ease;
 }
 .potato{
-	background-image:url(../img/bg1.jpg);
-	background-size: cover;
+background-image:url(../img/craft.jpg);
+    background-attachment:fixed;
+    opacity: 0.95;
+        max-width: 100%;
+
 }
 .upperBar{
-	padding-bottom: 25%;
-	padding-top: 25%;
+	opacity:0;
+	padding-bottom: 30%;
+	padding-top: 30%;
+
 }
 .middleBar{
 	padding-top:3%;
@@ -100,9 +156,9 @@ ul{
 .img-caption{
 	position: absolute;
 	top: 30%;
-	right: 7%;
+	left: 7%;
 	font-size: 30px;
-	color: black;
+	color: white;
 	}
 @media(max-width:760px){
 .img-caption{
@@ -120,6 +176,18 @@ display:none;
 	padding-right: 1.5%;
 	background: gray;
 	color: white;
-	right: 7%;
+	left: 7%;
 	font-size: 0.5em;
+}
+.bigTopic{
+	margin-top: 2%;
+	font-size: 24px;
+	letter-spacing:2px;
+font-family: 'Abel', sans-serif;
+}
+.smallTopic{
+	font-family: 'Abel', sans-serif;
+	line-height: 20px;
+	font-size: 15px;
+
 }
