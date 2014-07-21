@@ -4,6 +4,7 @@
 <link rel="stylesheet" type="text/css" href="css/About Us.css">
 <link rel="stylesheet" type="text/css" href="css/Our Service.css">
 <link rel="stylesheet" type="text/css" href="css/Main.css">
+<link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'>
 
 <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
 	<head>
@@ -40,7 +41,7 @@
 							</nav>
 						</div>
 				<!--hero image-->
-				<figure>
+				<div>
 					<img id ="hero" src="img/our service/hero1.jpg">
 					<div class="custom" style="color:white;">OUR SERVICE</div>
 					<div class="img-info"><p class ="text-justify" style="color:white;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspOur factory is located in Pathumthani, the outskirt of Bangkok. Our production facility has all kinds of machines required for production, for example cutting machines, skiving machines, computerized-sewing machines, etc. We have approximately 200 employees in our production department. All of them have wide-ranging experiences to create only best quality products as per our slogan, "BEST QUALITY WITH REASONABLE PRICE".</p>
@@ -48,33 +49,58 @@
 						<p class ="text-justify" style ="text-align:right; color:white;">Please do not hesitate to contact us if you have any inquiries.</p>
 					</div>
 					
-				</figure>
-				<div class = "row clear">
+				</div>
+				<div class = "row clear margin">
 					<div class ="col-sm-3 clear" >
-						<figure>
+						<div>
 							<a href="#"><img src = "img/our service/pre1.jpg" class ="img-thumbnail fade"></a>
 							<div class ="prep-caption">Preparation Department</div>
-						</figure>
+						</div>
 					</div>
 					<div class ="col-sm-3 clear" >
-						<figure>
+						<div>
 							<a href="#"><img src = "img/our service/hand1.jpg" class ="img-thumbnail fade"></a>
 							<div class ="prep-caption">Handbag Production</div>
-						</figure>
+						</div>
 					</div>
 					<div class ="col-sm-3 clear">
-						<figure>
+						<div>
 							<a href="#"><img src = "img/our service/wall1.jpg" class ="img-thumbnail fade"></a>
 							<div class ="prep-caption">Wallet Production</div>
-						</figure>
+						</div>
 					</div>
 					<div class ="col-sm-3 clear">
-						<figure>
+						<div>
 							<a href="#"><img src = "img/our service/QC.jpg" class ="img-thumbnail fade"></a>
 							<div class ="prep-caption">Quality Control Department</div>
-						</figure>
+						</div>
 					</div>
 				</div>
+				<div class = "row">
+					<p class ="topic">Preparation Department</p>
+				</div>	
+				<!-- #camera_wrap_1 -->
+				<div class="container-fluid clear custom-camera">
+					<div class="camera_wrap camera_bar" id="camera_wrap_1" >
+						<div data-src="img/news/press.jpg"  data-fx="simpleFade"  data-transPeriod="3000" >
+							<div class="camera_caption fadeFromBottom">
+								<p id="cap">Press Event at Siam Paragon</p>
+							</div>
+						</div>
+						<div data-src="img/news/press2.jpg"  data-fx="simpleFade"  data-transPeriod="3000" >
+							<div class="camera_caption fadeFromBottom">
+								<p id="cap">Press Event</p>
+							</div>
+						</div>
+						<div data-src="img/bag3.jpg"  data-fx="simpleFade"  data-transPeriod="3000" >
+							<div class="camera_caption fadeFromBottom">
+								<p id="cap">New Collection</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- #camera_wrap_1 -->
+				
 				<div class="row clear">
 					<div class=" col-sm-12 footer">
 						<ul>
@@ -95,5 +121,21 @@
 			<!--Javascript-->
 			<script src="js/jquery-1.11.1.min.js"></script>
 			<script src="bootstrap/js/bootstrap.js"></script>
-							<script type="text/javascript" src = "js/Main.js"></script>
+			<script type='text/javascript' src='js/jquery.min.js'></script>
+			<script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
+			<script type='text/javascript' src='js/camera.js'></script>
+			<script type="text/javascript" src = "js/Main.js"></script>
+			<script>
+						
+			jQuery(function(){
+				jQuery('#camera_wrap_1').camera({
+					pagination: false,
+					height:'480px',
+					navigation:false,
+					hover:false,
+					time: 5000,
+				});
+			});
+			
+			</script>
 		</body>
