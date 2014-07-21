@@ -42,6 +42,14 @@
 	font-family: z;
 	
 }
+#cap {
+	font-size: 24px;
+	font-family: z;
+}
+.camera_caption {
+	top:90%;
+	background-color: black;
+}
 @media(max-width:760px){
 .custom{
 top:55%;
@@ -62,7 +70,4 @@ height: 30px;
  }
 }
 
-.custom-camera {
-	width: 50%;
-}
 
